@@ -19,8 +19,8 @@ const corsOptions = {
 
 const app = express().use(cors(corsOptions)).use(express.json()).use(cookieParser());
 const port = 8000;
-const SMARTCAR_CLIENT_ID = "4fa15352-0729-445e-8580-c82647742247";
-const SMARTCAR_CLIENT_SECRET = "ab025b38-09a3-47e1-89b2-3919b0fe4384";
+const SMARTCAR_CLIENT_ID = "4aae1157-5e3e-4f6e-9f03-e6291cb29f13";
+const SMARTCAR_CLIENT_SECRET = "cbe0882b-5d66-46ee-bfe9-af530baccac9";
 const SMARTCAR_REDIRECT_URI = "http://localhost:8000/exchange";
 const JWT_SECRET_KEY = "73AE92E6113F4369A713A94C5A9C6B15";
 
