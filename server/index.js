@@ -71,6 +71,9 @@ app.get("/vehicles", authenticate, async function (req, res) {
     let selectedVehicle = {};
 
     const { accessToken } = req.tokens;
+
+    console.log("accessToken:", accessToken);
+
     const { vehicles: vehicleIds } = await smartcar.getVehicles(accessToken);
     // we'll also get all the info for the first vehicle in the list
     // TODO: use Promise.all for these two async calls
