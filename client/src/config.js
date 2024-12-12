@@ -192,7 +192,7 @@ const properties = {
     text: "Wattage",
   },
 };
-
+// eslint-disable-next-line
 const autoInsuranceConfig = {
   staticText: {
     appName: "Sky Insurance",
@@ -212,7 +212,7 @@ const autoInsuranceConfig = {
     properties.disconnect,
   ],
 };
-
+// eslint-disable-next-line
 const energyUtilitiesConfig = {
   staticText: {
     appName: "ChargeUp",
@@ -242,7 +242,7 @@ const energyUtilitiesConfig = {
     properties.disconnect,
   ],
 };
-
+// eslint-disable-next-line
 const carSharingConfig = {
   staticText: {
     appName: "CarShare",
@@ -265,7 +265,7 @@ const carSharingConfig = {
     properties.disconnect,
   ],
 };
-
+// eslint-disable-next-line
 const roadsideAssistanceConfig = {
   staticText: {
     appName: "RoadsideAssist",
